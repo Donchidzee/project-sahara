@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Sahara</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./session.css">
+</head>
+<body>
+  <section class="container">
+    
+    <form action="/php/regis.php" class="session-form" method="POST">
+      <a href="../index.html" class="home">Главная</a>
+
+      <h1 class="session-form__title">Регистрация</h1>
+
+      <label for="user-name" class="session-form__label" >Имя пользователя</label>
+
+      <input type="text" id="user-name" placeholder="Имя пользователя" class="session-form__input" name="login">
+
+      <label for="user-email" class="session-form__label">Email</label>
+
+      <input type="email" id="user-email" placeholder="Email" class="session-form__input" name="email">
+
+      <label for="user-password" class="session-form__label">Пароль</label>
+
+      <input type="password" id="user-password" placeholder="Пароль" class="session-form__input" name="password">
+      
+      <label for="user-password-repeat" class="session-form__label">Повторите пароль</label>
+
+      <input type="password" id="user-password-repeat" placeholder="Повторите пароль" class="session-form__input" name="passwordSecond">
+
+      <a href="./login.html" class="session-form__link">Войти</a>
+      <button type="button" class="session-form__submit">Регистрация</button>
+    </form>
+  </section>
+</body>
+</html>

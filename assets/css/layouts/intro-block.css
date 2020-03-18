@@ -1,0 +1,88 @@
+/* Лучший вариант использовать именно *. * - означает "все элементы на странице" */
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.intro-block{
+    background-image: url('../../images/12.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    height: 95px;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
+.navbar__logo{
+    /* border: 1px solid red; */
+
+    font-size: 35px;
+
+    color: #dfcebe;
+
+    width: 200px;
+
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar__menu {
+    width: 75%;
+    
+    text-align: center; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+    /* border: 1px solid red; */
+}
+
+.navbar__link-extra {
+    color: #dfcebe;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    box-shadow: 0 0 30px rgba(243, 240, 240, 0.5);
+    transition: all 0.75s ease 0s;
+    border: 2px solid #dfcebe;
+    border-radius: 10px;
+}
+
+.navbar__link:hover {
+    color: #dfcebe;
+}
+
+.navbar__link-extra:hover{
+    color: #fff;
+    background-color: #dfcebe;
+    border: 2px solid #fff;
+}
+
+

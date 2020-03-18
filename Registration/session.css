@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/images/beauty\ salon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+
+  border: 1px solid black;
+}
+
+/* session-form block */
+
+.session-form {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+  border: 1px solid #f09c89;
+}
+
+.session-form__title {
+  margin-bottom: 20px;
+
+  color: #f09c89;
+}
+
+.session-form__label {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #f09c89;
+}
+
+.session-form__input {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f09c89;
+  border-radius: 4px;
+}
+
+.session-form__link {
+  margin-bottom: 5px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #f09c89;
+}
+
+.session-form__submit {
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background-color: #f09c89;
+  cursor: pointer;
+}
+
+.home{
+  text-decoration: none;
+  color: #f09c89;
+  margin-bottom: 20px;
+}
+/* session-form block end */
