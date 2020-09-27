@@ -1,12 +1,12 @@
 let salon = { 
     sales: [
-        {name: 'Ilona', salary: 1000}, 
-        {name: 'Vera', salary: 1600}],
+        {name: 'Ilona', salary: 10000}, 
+        {name: 'Vera', salary: 18000}],
     development: {
       sites: [
-          {name: 'Katya', salary: 2000}, 
-          {name: 'Sasha', salary: 1800}],
-      internals: [{name: 'Anastasiya', salary: 1300}]
+          {name: 'Katya', salary: 14000}, 
+          {name: 'Sasha', salary: 13000}],
+      internals: [{name: 'Anastasiya', salary: 15000}]
     }
 };
 

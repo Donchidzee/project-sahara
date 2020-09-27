@@ -1,6 +1,6 @@
 let arrayOfClients = [
     ['Kuanysh', 'Serik'],
-    ['Bolat', 'Sergei'],
+    ['Bolat', 'Sergey'],
     ['Daryn', 'Arsen'] 
 ]
 
